@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "title": "Giày Thể Thao Tinh Xảo",
+    "description": "Thiết kế giày thể thao chất lượng cao, tập trung vào chi tiết và chất lượng thủ công, cung cấp hiển thị chi tiết đa góc độ.",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "shoes"
+  },
+  {
+    "id": 2,
+    "title": "Túi Xách Thời Trang",
+    "description": "Làm thủ công với chất liệu được chọn lọc, chú ý đến từng chi tiết đường may và phụ kiện phần cứng.",
+    "images": [
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1591561954557-26941169b49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "bags"
+  },
+  {
+    "id": 3,
+    "title": "Đồng Hồ Đeo Tay Tinh Xảo",
+    "description": "Chất lượng thủ công tốt, cả mặt số và dây đeo đều phản ánh chất lượng làm việc cao.",
+    "images": [
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1547996160-81bc1b8b8d4f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "watches"
+  },
+  {
+    "id": 4,
+    "title": "Kính Mát Thời Trang",
+    "description": "Thiết kế thời trang, tròng kính chất lượng cao, cung cấp nhiều lựa chọn kiểu dáng.",
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "accessories"
+  },
+  {
+    "id": 5,
+    "title": "Tai Nghe Cao Cấp",
+    "description": "Chất lượng âm thanh tuyệt vời và trải nghiệm đeo thoải mái, tập trung vào từng chi tiết.",
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "accessories"
+  },
+  {
+    "id": 6,
+    "title": "Ví Tinh Xảo",
+    "description": "Da được chọn lọc, may thủ công, tập trung vào tính thực tiễn và thẩm mỹ.",
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "accessories"
+  }
+]

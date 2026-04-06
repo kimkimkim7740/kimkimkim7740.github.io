@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "title": "精致运动鞋款",
+    "description": "高品质运动鞋设计，注重细节与工艺，提供多角度细节展示。",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "shoes"
+  },
+  {
+    "id": 2,
+    "title": "时尚手提包",
+    "description": "精选材质手工制作，注重每一个缝线细节和五金配件。",
+    "images": [
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1591561954557-26941169b49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "bags"
+  },
+  {
+    "id": 3,
+    "title": "精致腕表",
+    "description": "精工细作，表盘与表带均体现高品质工艺。",
+    "images": [
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1547996160-81bc1b8b8d4f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "watches"
+  },
+  {
+    "id": 4,
+    "title": "潮流太阳镜",
+    "description": "时尚设计，优质镜片，提供多种款式选择。",
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "accessories"
+  },
+  {
+    "id": 5,
+    "title": "高端耳机",
+    "description": "卓越音质与舒适佩戴体验，注重每一个细节。",
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "accessories"
+  },
+  {
+    "id": 6,
+    "title": "精致钱包",
+    "description": "精选皮革，手工缝制，注重实用性与美观。",
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "accessories"
+  }
+]

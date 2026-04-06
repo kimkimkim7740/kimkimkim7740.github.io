@@ -1,0 +1,66 @@
+{
+  "site": {
+    "title": "Collection Premium - Produits de Haute Qualité",
+    "description": "Concentré sur un savoir-faire de haute qualité, chaque pièce résiste à un examen attentif"
+  },
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Découvrez des Détails Exquis",
+    "subtitle": "Concentré sur un savoir-faire de haute qualité, chaque pièce résiste à un examen attentif",
+    "button": "Parcourir les Produits"
+  },
+  "products": {
+    "title": "Produits en Vedette",
+    "subtitle": "Cliquez pour voir les détails, demandes bienvenues",
+    "filterAll": "Tous",
+    "filterCat1": "Chaussures",
+    "filterCat2": "Sacs",
+    "filterCat3": "Montres",
+    "filterCat4": "Accessoires",
+    "filterCat5": "Vêtements",
+    "filterCat6": "Pantalons",
+    "viewDetails": "Voir les détails",
+    "inquire": "Demander sur ce produit"
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "text1": "Nous nous spécialisons dans la fourniture de produits triés sur le volet de haute qualité, en accordant une attention à chaque détail et au savoir-faire. Chaque produit subit un criblage strict pour s'assurer qu'il répond à nos normes élevées.",
+    "text2": "Nous croyons que les bons produits parlent d'eux-mêmes, c'est pourquoi nous fournissons des images détaillées sous plusieurs angles, vous permettant de comprendre complètement chaque aspect du produit.",
+    "text3": "Bienvenue pour demander via les méthodes de contact ci-dessous pour plus d'informations, nous fournirons des réponses détaillées."
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Bienvenue pour demander des détails sur les produits, nous répondrons dès que possible",
+    "instantTitle": "Consultation Instantanée",
+    "instantText": "Contactez via Telegram ou WeChat pour une réponse rapide",
+    "telegram": "Telegram",
+    "wechat": "WeChat",
+    "emailTitle": "Demande par Email",
+    "emailText": "Envoyez des exigences détaillées, nous répondrons soigneusement à chaque email",
+    "sendEmail": "Envoyer Email",
+    "formTitle": "Envoyer une Demande",
+    "namePlaceholder": "Votre Nom",
+    "emailPlaceholder": "Votre Email",
+    "productPlaceholder": "Produit d'Intérêt",
+    "messagePlaceholder": "Vos exigences spécifiques ou questions",
+    "submit": "Envoyer la Demande"
+  },
+  "wechat": {
+    "title": "Contact WeChat",
+    "provideQR": "Veuillez fournir votre code QR WeChat",
+    "note": "Après avoir scanné pour ajouter WeChat, veuillez noter \"Demande de Produit\""
+  },
+  "footer": {
+    "brand": "Collection Premium",
+    "brandDesc": "Concentré sur l'affichage et la consultation de produits de haute qualité",
+    "quickLinks": "Liens Rapides",
+    "contactMethods": "Méthodes de Contact",
+    "contactText": "Contactez via Telegram ou WeChat",
+    "copyright": "À des fins d'affichage uniquement."
+  }
+}

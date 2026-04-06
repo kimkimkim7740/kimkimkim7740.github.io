@@ -1,0 +1,66 @@
+{
+  "site": {
+    "title": "Colección Premium - Productos de Alta Calidad",
+    "description": "Enfoque en artesanía de alta calidad, cada pieza resiste una inspección cercana"
+  },
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Descubre Detalles Exquisitos",
+    "subtitle": "Enfoque en artesanía de alta calidad, cada pieza resiste una inspección cercana",
+    "button": "Explorar Productos"
+  },
+  "products": {
+    "title": "Productos Destacados",
+    "subtitle": "Haz clic para ver detalles, consultas bienvenidas",
+    "filterAll": "Todos",
+    "filterCat1": "Zapatos",
+    "filterCat2": "Bolsos",
+    "filterCat3": "Relojes",
+    "filterCat4": "Accesorios",
+    "filterCat5": "Ropa",
+    "filterCat6": "Pantalones",
+    "viewDetails": "Ver detalles",
+    "inquire": "Consultar sobre este producto"
+  },
+  "about": {
+    "title": "Acerca de Nosotros",
+    "text1": "Nos especializamos en proporcionar productos curados de alta calidad, prestando atención a cada detalle y artesanía. Cada producto pasa por un cribado estricto para asegurar que cumple con nuestros altos estándares.",
+    "text2": "Creemos que los buenos productos hablan por sí mismos, por eso proporcionamos imágenes de detalles desde múltiples ángulos, permitiéndote entender completamente cada aspecto del producto.",
+    "text3": "Bienvenido a consultar a través de los métodos de contacto a continuación para más información, proporcionaremos respuestas detalladas."
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Bienvenido a consultar sobre detalles del producto, responderemos lo antes posible",
+    "instantTitle": "Consulta Instantánea",
+    "instantText": "Contacta a través de Telegram o WeChat para respuesta rápida",
+    "telegram": "Telegram",
+    "wechat": "WeChat",
+    "emailTitle": "Consulta por Email",
+    "emailText": "Envía requisitos detallados, responderemos cuidadosamente a cada email",
+    "sendEmail": "Enviar Email",
+    "formTitle": "Enviar Consulta",
+    "namePlaceholder": "Tu Nombre",
+    "emailPlaceholder": "Tu Email",
+    "productPlaceholder": "Producto de Interés",
+    "messagePlaceholder": "Tus requisitos específicos o preguntas",
+    "submit": "Enviar Consulta"
+  },
+  "wechat": {
+    "title": "Contacto WeChat",
+    "provideQR": "Por favor proporciona tu código QR de WeChat",
+    "note": "Después de escanear para agregar WeChat, por favor nota \"Consulta de Producto\""
+  },
+  "footer": {
+    "brand": "Colección Premium",
+    "brandDesc": "Enfoque en exhibición y consulta de productos de alta calidad",
+    "quickLinks": "Enlaces Rápidos",
+    "contactMethods": "Métodos de Contacto",
+    "contactText": "Contacta a través de Telegram o WeChat",
+    "copyright": "Solo para fines de exhibición."
+  }
+}

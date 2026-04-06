@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "title": "Exquisite Sports Shoes",
+    "description": "High-quality sports shoe design, focusing on details and craftsmanship, providing multi-angle detail display.",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "shoes"
+  },
+  {
+    "id": 2,
+    "title": "Fashion Handbag",
+    "description": "Handmade with selected materials, paying attention to every stitching detail and hardware accessories.",
+    "images": [
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1591561954557-26941169b49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "bags"
+  },
+  {
+    "id": 3,
+    "title": "Exquisite Wristwatch",
+    "description": "Fine craftsmanship, both the dial and strap reflect high-quality workmanship.",
+    "images": [
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1547996160-81bc1b8b8d4f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "watches"
+  },
+  {
+    "id": 4,
+    "title": "Trendy Sunglasses",
+    "description": "Fashion design, high-quality lenses, providing multiple style choices.",
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "accessories"
+  },
+  {
+    "id": 5,
+    "title": "Premium Headphones",
+    "description": "Excellent sound quality and comfortable wearing experience, focusing on every detail.",
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "accessories"
+  },
+  {
+    "id": 6,
+    "title": "Exquisite Wallet",
+    "description": "Selected leather, hand-stitched, focusing on practicality and aesthetics.",
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "accessories"
+  }
+]

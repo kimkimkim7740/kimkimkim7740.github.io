@@ -1,0 +1,926 @@
+/* 基础样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 导航栏样式 */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 15px 0;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2c3e50;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #4a5568;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.nav-links a:hover {
+    color: #3498db;
+}
+
+.language-switcher {
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.language-btn {
+    padding: 5px 10px;
+    background-color: #edf2f7;
+    border: none;
+    border-radius: 4px;
+    color: #4a5568;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.language-btn.active,
+.language-btn:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #3498db;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #4a5568;
+    cursor: pointer;
+}
+
+/* 英雄区域 */
+.hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: white;
+    padding: 150px 0 100px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #cbd5e0;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background: linear-gradient(to right, #3498db, #2980b9);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+    background: linear-gradient(to right, #2980b9, #3498db);
+}
+
+/* 产品区域 */
+.products {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: #718096;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 10px 25px;
+    background-color: #edf2f7;
+    border: none;
+    border-radius: 50px;
+    color: #4a5568;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.product-image {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.product-card:hover .product-image img {
+    transform: scale(1.05);
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    color: #718096;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.view-details {
+    color: #3498db;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.view-details:hover {
+    text-decoration: underline;
+}
+
+/* 关于我们 */
+.about {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+    color: #4a5568;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.about-image {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.about-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.about-image:hover .about-img {
+    transform: scale(1.05);
+}
+
+/* 联系方式 */
+.contact {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.contact-info {
+    display: grid;
+    gap: 30px;
+}
+
+.contact-item {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: translateY(-5px);
+}
+
+.contact-item i {
+    font-size: 2.5rem;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.contact-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.contact-item p {
+    color: #718096;
+    margin-bottom: 20px;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn-telegram, .btn-wechat, .btn-email, .btn-submit {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.btn-telegram {
+    background-color: #0088cc;
+    color: white;
+}
+
+.btn-wechat {
+    background-color: #07c160;
+    color: white;
+}
+
+.btn-email {
+    background-color: #ea4335;
+    color: white;
+}
+
+.btn-telegram:hover, .btn-wechat:hover, .btn-email:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form h3 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.btn-submit {
+    background: linear-gradient(to right, #3498db, #2980b9);
+    color: white;
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.btn-submit:hover {
+    background: linear-gradient(to right, #2980b9, #3498db);
+}
+
+/* 模态框样式 */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2000;
+    overflow-y: auto;
+}
+
+.modal-content {
+    background-color: white;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 1000px;
+    position: relative;
+    animation: modalFadeIn 0.3s ease;
+}
+
+@keyframes modalFadeIn {
+    from { opacity: 0; transform: translateY(-50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.close-modal {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 2rem;
+    color: #4a5568;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.close-modal:hover {
+    color: #e74c3c;
+}
+
+.modal-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.modal-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-image-container {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.main-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.thumbnail-container {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    flex-shrink: 0;
+}
+
+.thumbnail.active,
+.thumbnail:hover {
+    opacity: 1;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-info h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.modal-info p {
+    color: #4a5568;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.modal-actions {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(to right, #07c160, #05a049);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(7, 193, 96, 0.3);
+}
+
+.wechat-modal {
+    max-width: 500px;
+    text-align: center;
+}
+
+.wechat-modal h3 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.qr-placeholder {
+    padding: 40px;
+    background: #f8f9fa;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.qr-placeholder i {
+    font-size: 4rem;
+    color: #07c160;
+    margin-bottom: 20px;
+}
+
+.qr-placeholder p {
+    color: #718096;
+    font-size: 1.1rem;
+}
+
+.wechat-note {
+    color: #4a5568;
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+
+/* 页脚样式 */
+.footer {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 70px 0 30px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.footer-section p {
+    color: #cbd5e0;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.footer-section a {
+    display: block;
+    color: #a0aec0;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #3498db;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #2d3748;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #3498db;
+    transform: translateY(-3px);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid #2d3748;
+    color: #a0aec0;
+    font-size: 0.9rem;
+}
+
+/* 浮动按钮 */
+.floating-buttons {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 1000;
+}
+
+.floating-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.telegram-float {
+    background-color: #0088cc;
+}
+
+.wechat-float {
+    background-color: #07c160;
+}
+
+.floating-btn:hover {
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* 响应式设计 */
+@media (max-width: 992px) {
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+    
+    .about-content,
+    .contact-content,
+    .modal-body {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+    
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .product-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .floating-buttons {
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    .floating-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+}
+
+/* Password Protection Styles */
+.password-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.password-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.password-box {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.password-box i {
+    font-size: 3rem;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.password-box h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.password-box p {
+    color: #718096;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.password-input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#passwordInput {
+    flex: 1;
+    padding: 15px 20px;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+#passwordInput:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+#passwordSubmit {
+    background: linear-gradient(to right, #3498db, #2980b9);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#passwordSubmit:hover {
+    background: linear-gradient(to right, #2980b9, #3498db);
+    transform: translateY(-2px);
+}
+
+.password-note {
+    font-size: 0.9rem;
+    color: #a0aec0;
+    margin-top: 15px;
+}
+
+.password-error {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    min-height: 20px;
+}
+
+/* Hide main content when password layer is active */
+body.password-protected .password-layer {
+    display: flex;
+}
+
+body.password-protected main,
+body.password-protected footer,
+body.password-protected .floating-buttons {
+    display: none;
+}
+
+body.password-unlocked .password-layer {
+    display: none;
+}
+
+body.password-unlocked main,
+body.password-unlocked footer,
+body.password-unlocked .floating-buttons {
+    display: block;
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 120px 0 80px;
+    }
+    
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-buttons {
+        flex-direction: column;
+    }
+}

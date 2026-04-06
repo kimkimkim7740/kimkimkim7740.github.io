@@ -1,0 +1,66 @@
+{
+  "site": {
+    "title": "Bộ Sưu Tập Cao Cấp - Sản Phẩm Chất Lượng Cao",
+    "description": "Tập trung vào chất lượng thủ công cao, mỗi sản phẩm đều chịu được sự kiểm tra kỹ lưỡng"
+  },
+  "nav": {
+    "home": "Trang Chủ",
+    "products": "Sản Phẩm",
+    "about": "Về Chúng Tôi",
+    "contact": "Liên Hệ"
+  },
+  "hero": {
+    "title": "Khám Phá Chi Tiết Tinh Xảo",
+    "subtitle": "Tập trung vào chất lượng thủ công cao, mỗi sản phẩm đều chịu được sự kiểm tra kỹ lưỡng",
+    "button": "Xem Sản Phẩm"
+  },
+  "products": {
+    "title": "Sản Phẩm Nổi Bật",
+    "subtitle": "Nhấp để xem chi tiết, chào đón yêu cầu thông tin",
+    "filterAll": "Tất Cả",
+    "filterCat1": "Giày",
+    "filterCat2": "Túi xách",
+    "filterCat3": "Đồng hồ",
+    "filterCat4": "Phụ kiện",
+    "filterCat5": "Quần áo",
+    "filterCat6": "Quần",
+    "viewDetails": "Xem chi tiết",
+    "inquire": "Yêu Cầu Thông Tin Sản Phẩm"
+  },
+  "about": {
+    "title": "Về Chúng Tôi",
+    "text1": "Chúng tôi chuyên cung cấp các sản phẩm chất lượng cao được tuyển chọn, chú ý đến từng chi tiết và chất lượng thủ công. Mỗi sản phẩm đều trải qua quá trình sàng lọc nghiêm ngặt để đảm bảo đáp ứng các tiêu chuẩn cao của chúng tôi.",
+    "text2": "Chúng tôi tin rằng sản phẩm tốt sẽ tự nói lên điều đó, đó là lý do chúng tôi cung cấp hình ảnh chi tiết từ nhiều góc độ, cho phép bạn hiểu rõ từng khía cạnh của sản phẩm.",
+    "text3": "Chào đón yêu cầu thông tin thông qua các phương thức liên hệ dưới đây để biết thêm chi tiết, chúng tôi sẽ cung cấp câu trả lời chi tiết."
+  },
+  "contact": {
+    "title": "Liên Hệ Với Chúng Tôi",
+    "subtitle": "Chào đón yêu cầu thông tin về chi tiết sản phẩm, chúng tôi sẽ phản hồi sớm nhất có thể",
+    "instantTitle": "Tư Vấn Ngay Lập Tức",
+    "instantText": "Liên hệ qua Telegram hoặc WeChat để được phản hồi nhanh chóng",
+    "telegram": "Telegram",
+    "wechat": "WeChat",
+    "emailTitle": "Yêu Cầu Qua Email",
+    "emailText": "Gửi yêu cầu chi tiết, chúng tôi sẽ cẩn thận trả lời mọi email",
+    "sendEmail": "Gửi Email",
+    "formTitle": "Gửi Yêu Cầu",
+    "namePlaceholder": "Tên Của Bạn",
+    "emailPlaceholder": "Email Của Bạn",
+    "productPlaceholder": "Sản Phẩm Quan Tâm",
+    "messagePlaceholder": "Yêu cầu cụ thể hoặc câu hỏi của bạn",
+    "submit": "Gửi Yêu Cầu"
+  },
+  "wechat": {
+    "title": "Liên Hệ WeChat",
+    "provideQR": "Vui lòng cung cấp mã QR WeChat của bạn",
+    "note": "Sau khi quét để thêm WeChat, vui lòng ghi chú \"Yêu Cầu Sản Phẩm\""
+  },
+  "footer": {
+    "brand": "Bộ Sưu Tập Cao Cấp",
+    "brandDesc": "Tập trung vào trưng bày và tư vấn sản phẩm chất lượng cao",
+    "quickLinks": "Liên Kết Nhanh",
+    "contactMethods": "Phương Thức Liên Hệ",
+    "contactText": "Liên hệ qua Telegram hoặc WeChat",
+    "copyright": "Chỉ dành cho mục đích trưng bày."
+  }
+}

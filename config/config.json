@@ -1,0 +1,17 @@
+{
+  "site": {
+    "title": "精品展示",
+    "description": "高品质产品展示与咨询",
+    "contactEmail": "",
+    "telegramUsername": "",
+    "wechatQR": ""
+  },
+  "categories": [
+    {"id": "category1", "name": "鞋类"},
+    {"id": "category2", "name": "包袋"},
+    {"id": "category3", "name": "配饰"}
+  ],
+  "formspree": {
+    "formId": ""
+  }
+}

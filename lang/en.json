@@ -1,0 +1,66 @@
+{
+  "site": {
+    "title": "Premium Collection - High Quality Products",
+    "description": "Focus on high-quality craftsmanship, every piece withstands close inspection"
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Discover Exquisite Details",
+    "subtitle": "Focus on high-quality craftsmanship, every piece withstands close inspection",
+    "button": "Browse Products"
+  },
+  "products": {
+    "title": "Featured Products",
+    "subtitle": "Click to view details, inquiries welcome",
+    "filterAll": "All",
+    "filterCat1": "Shoes",
+    "filterCat2": "Bags",
+    "filterCat3": "Watches",
+    "filterCat4": "Accessories",
+    "filterCat5": "Clothes",
+    "filterCat6": "Pants",
+    "viewDetails": "View details",
+    "inquire": "Inquire About This Product"
+  },
+  "about": {
+    "title": "About Us",
+    "text1": "We specialize in providing high-quality curated products, paying attention to every detail and craftsmanship. Each product undergoes strict screening to ensure it meets our high standards.",
+    "text2": "We believe that good products speak for themselves, which is why we provide multiple-angle detail images, allowing you to fully understand every aspect of the product.",
+    "text3": "Welcome to inquire through the contact methods below for more information, we will provide detailed answers."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Welcome to inquire about product details, we will reply as soon as possible",
+    "instantTitle": "Instant Consultation",
+    "instantText": "Contact via Telegram or WeChat for quick response",
+    "telegram": "Telegram",
+    "wechat": "WeChat",
+    "emailTitle": "Email Inquiry",
+    "emailText": "Send detailed requirements, we will carefully reply to every email",
+    "sendEmail": "Send Email",
+    "formTitle": "Send Inquiry",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "productPlaceholder": "Product of Interest",
+    "messagePlaceholder": "Your specific requirements or questions",
+    "submit": "Send Inquiry"
+  },
+  "wechat": {
+    "title": "WeChat Contact",
+    "provideQR": "Please provide your WeChat QR code",
+    "note": "After scanning to add WeChat, please note \"Product Inquiry\""
+  },
+  "footer": {
+    "brand": "Premium Collection",
+    "brandDesc": "Focus on high-quality product display and consultation",
+    "quickLinks": "Quick Links",
+    "contactMethods": "Contact Methods",
+    "contactText": "Contact via Telegram or WeChat",
+    "copyright": "For display purposes only."
+  }
+}

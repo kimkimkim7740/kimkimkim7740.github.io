@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "title": "Zapatos Deportivos Exquisitos",
+    "description": "Diseño de zapatos deportivos de alta calidad, enfocándose en detalles y artesanía, proporcionando visualización de detalles en múltiples ángulos.",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "shoes"
+  },
+  {
+    "id": 2,
+    "title": "Bolso de Mano de Moda",
+    "description": "Hecho a mano con materiales seleccionados, prestando atención a cada detalle de costura y accesorios de hardware.",
+    "images": [
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1591561954557-26941169b49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "bags"
+  },
+  {
+    "id": 3,
+    "title": "Reloj de Pulsera Exquisito",
+    "description": "Artesanía fina, tanto la esfera como la correa reflejan una mano de obra de alta calidad.",
+    "images": [
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1547996160-81bc1b8b8d4f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "watches"
+  },
+  {
+    "id": 4,
+    "title": "Gafas de Sol de Moda",
+    "description": "Diseño de moda, lentes de alta calidad, proporcionando múltiples opciones de estilo.",
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "accessories"
+  },
+  {
+    "id": 5,
+    "title": "Auriculares Premium",
+    "description": "Excelente calidad de sonido y experiencia de uso cómoda, enfocándose en cada detalle.",
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "accessories"
+  },
+  {
+    "id": 6,
+    "title": "Cartera Exquisita",
+    "description": "Cuero seleccionado, cosido a mano, enfocándose en la practicidad y la estética.",
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "accessories"
+  }
+]

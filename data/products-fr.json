@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "title": "Chaussures de Sport Exquises",
+    "description": "Conception de chaussures de sport de haute qualité, axée sur les détails et le savoir-faire, offrant un affichage détaillé multi-angles.",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "shoes"
+  },
+  {
+    "id": 2,
+    "title": "Sac à Main Mode",
+    "description": "Fait à la main avec des matériaux sélectionnés, en accordant une attention à chaque détail de couture et aux accessoires en quincaillerie.",
+    "images": [
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1591561954557-26941169b49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "bags"
+  },
+  {
+    "id": 3,
+    "title": "Montre-bracelet Exquise",
+    "description": "Savoir-faire fin, le cadran et le bracelet reflètent tous deux un travail de haute qualité.",
+    "images": [
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1547996160-81bc1b8b8d4f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "watches"
+  },
+  {
+    "id": 4,
+    "title": "Lunettes de Soleil Tendances",
+    "description": "Design tendance, verres de haute qualité, offrant de multiples choix de style.",
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "accessories"
+  },
+  {
+    "id": 5,
+    "title": "Casques Audio Premium",
+    "description": "Excellente qualité sonore et expérience de port confortable, en se concentrant sur chaque détail.",
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "accessories"
+  },
+  {
+    "id": 6,
+    "title": "Portefeuille Exquis",
+    "description": "Cuir sélectionné, cousu main, en se concentrant sur la praticité et l'esthétique.",
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    ],
+    "category": "accessories"
+  }
+]

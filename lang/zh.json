@@ -1,0 +1,66 @@
+{
+  "site": {
+    "title": "精品展示 - 高品质精选",
+    "description": "专注高品质工艺，每一件都经得起细看"
+  },
+  "nav": {
+    "home": "首页",
+    "products": "产品",
+    "about": "关于",
+    "contact": "联系"
+  },
+  "hero": {
+    "title": "发现精致细节",
+    "subtitle": "专注高品质工艺，每一件都经得起细看",
+    "button": "浏览产品"
+  },
+  "products": {
+    "title": "精选产品",
+    "subtitle": "点击查看细节，欢迎咨询",
+    "filterAll": "全部",
+    "filterCat1": "鞋子",
+    "filterCat2": "包袋",
+    "filterCat3": "手表",
+    "filterCat4": "配饰",
+    "filterCat5": "衣服",
+    "filterCat6": "裤子",
+    "viewDetails": "查看细节",
+    "inquire": "咨询此产品"
+  },
+  "about": {
+    "title": "关于我们",
+    "text1": "我们专注于提供高品质的精选产品，注重每一个细节和工艺。每一件产品都经过严格筛选，确保达到我们的高标准。",
+    "text2": "我们相信好的产品自己会说话，因此我们提供多角度的细节图，让您能够全面了解产品的每一个方面。",
+    "text3": "欢迎通过下方联系方式咨询更多信息，我们将为您提供详细解答。"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "欢迎咨询产品详情，我们将尽快回复",
+    "instantTitle": "即时咨询",
+    "instantText": "通过Telegram或微信联系，获取快速回复",
+    "telegram": "Telegram",
+    "wechat": "微信",
+    "emailTitle": "邮件咨询",
+    "emailText": "发送详细需求，我们将认真回复每一封邮件",
+    "sendEmail": "发送邮件",
+    "formTitle": "发送询盘",
+    "namePlaceholder": "您的姓名",
+    "emailPlaceholder": "您的邮箱",
+    "productPlaceholder": "感兴趣的产品",
+    "messagePlaceholder": "您的具体需求或问题",
+    "submit": "发送询盘"
+  },
+  "wechat": {
+    "title": "微信联系",
+    "provideQR": "请提供您的微信二维码",
+    "note": "扫码添加微信后，请备注\"产品咨询\""
+  },
+  "footer": {
+    "brand": "精品展示",
+    "brandDesc": "专注于高品质产品的展示与咨询",
+    "quickLinks": "快速链接",
+    "contactMethods": "联系方式",
+    "contactText": "通过Telegram或微信联系",
+    "copyright": "仅供展示使用。"
+  }
+}
